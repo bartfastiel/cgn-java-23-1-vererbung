@@ -1,6 +1,6 @@
 package org.example;
 
-public class StringInstrument {
+public abstract class StringInstrument implements Audible {
     private int numberOfStrings;
     private boolean used;
 
@@ -18,9 +18,5 @@ public class StringInstrument {
 
     public void setUsed(boolean used) {
         this.used = used;
-    }
-
-    public String makeNoise() {
-        return "Some unidentifyable noise";
     }
 }
