@@ -12,6 +12,10 @@ public class Violin extends StringInstrument {
         this.withBow = withBow;
     }
 
+    public String makeNoise() {
+        return "Violinnoise";
+    }
+
     @Override
     public String toString() {
         return "Violin{" +
