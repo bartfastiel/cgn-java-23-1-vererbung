@@ -12,6 +12,11 @@ public class Guitar extends StringInstrument {
         this.guitarType = guitarType;
     }
 
+    public String makeNoise() {
+        return "Guitarnoise";
+    }
+
+
     @Override
     public String toString() {
         return "Guitar{" +

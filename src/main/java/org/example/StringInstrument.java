@@ -19,4 +19,8 @@ public class StringInstrument {
     public void setUsed(boolean used) {
         this.used = used;
     }
+
+    public String makeNoise() {
+        return "Some unidentifyable noise";
+    }
 }
